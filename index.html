@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MusicMastery</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+            <a href="#"><img src="./imgs/logo.png" alt="logo"></a> 
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="#">Início</a></li>
+            <li class="link"><a href="#">Artistas</a></li>
+            <li class="link"><a href="#">Álbuns</a></li>
+            <li class="link"><a href="#">Gêneros</a></li>
+            <li class="link"><a href="#">Playlists</a></li> 
+        </ul>
+        <button class="btn">Entrar</button>
+    </nav>
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+            <h4>O MELHOR DA MÚSICA</h4>
+            <h1><span>DESCUBRA</span> NOVAS CANÇÕES</h1>
+            <p>
+                Explore um mundo de música, descubra novas bandas e artistas, e deixe-se levar pelas melodias e ritmos que definem sua vida. Inscreva-se agora e transforme sua experiência musical!
+            </p>
+            <button class="btn">Começar</button>  
+        </div>
+        <div class="header__image">
+            <img src="./imgs/chorao.png" alt="header">
+        </div>  
+    </header>
+
+    <section class="section__container explore__container">
+        <div class="explore__header">
+            <h2 class="section__header">EXPLORAR GÊNEROS</h2>
+            <div class="explore__nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div>    
+        </div>
+        <div class="explore__grid">
+            <div class="explore__card">
+                <span><i class="ri-music-fill"></i></span>
+                <h4>Rock</h4>
+                <p>
+                    Descubra a energia e a atitude do rock em suas mais diversas vertentes.
+                </p>
+                <a href="#">Explorar <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-music-line"></i></span>
+                <h4>Pop</h4>
+                <p>
+                    Hits do momento e clássicos do pop que conquistaram gerações.
+                </p>
+                <a href="#">Explorar <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-headphone-fill"></i></span>
+                <h4>Hip-Hop</h4>
+                <p>
+                    Ritmos e rimas que transformam e inspiram, do underground ao mainstream.
+                </p>
+                <a href="#">Explorar <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-disco-fill"></i></span>
+                <h4>Eletrônica</h4>
+                <p>
+                    As batidas e os drops que movem as pistas de dança ao redor do mundo.
+                </p>
+                <a href="#">Explorar <i class="ri-arrow-right-line"></i></a>
+            </div>            
+        </div>
+    </section>
+
+    <section class="section__container artist__container">
+        <div class="artist__image">
+            <span class="bg__blur"></span>
+            <img src="./imgs/mulher.png" alt="artist" class="artist__img-1">
+            
+        </div>
+        <div class="artist__content">
+            <h2 class="section__header">ARTISTAS EM DESTAQUE</h2>
+            <h2>
+                Conheça os artistas que estão fazendo história no mundo da música. Suas histórias, suas influências e suas canções mais tocadas.
+            </h2>
+            <button class="btn">Ver Artistas</button>
+        </div>
+    </section>
+
+    <section class="section__container join__container">
+        <h2 class="section__header">POR QUE SE JUNTAR A NÓS?</h2>
+        <p class="section__subheader">
+            Junte-se à nossa comunidade musical e descubra novas músicas, crie playlists personalizadas e compartilhe suas descobertas com amigos.
+        </p>
+        <div class="join__image">
+            <img src="imgs/ruiva.jpg" alt="join">
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-group-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Comunidade</h4>
+                        <p>Conecte-se com outros amantes da música.</p>
+                    </div>
+                </div>
+                <div class="join__card">
+                    <span><i class="ri-play-circle-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Playlists Personalizadas</h4>
+                        <p>Crie e compartilhe suas próprias playlists.</p>
+                    </div>
+                </div>
+                <div class="join__card">
+                    <span><i class="ri-heart-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Favoritos</h4>
+                        <p>Salve suas músicas e álbuns favoritos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container price__container">
+        <h2 class="section__header">NOSSOS PLANOS DE ASSINATURA</h2>
+        <p class="section__subheader">
+            Escolha o plano que melhor se adapta às suas necessidades musicais.
+        </p>
+        <div class="price__grid">
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Plano Básico</h4>
+                    <h3>R$16,00/mês</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Acesso a todas as músicas
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Criação de playlists
+                    </p>
+                </div>
+                <button class="btn price__btn">Assinar</button>
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Plano Plus</h4>
+                    <h3>R$25,00/mês</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Sem anúncios
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Acesso offline
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Acesso a todas as músicas
+                    </p>
+                </div>
+                <button class="btn price__btn">Assinar</button>
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Plano Premium</h4>
+                    <h3>R$45,00/mês</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Alta qualidade de áudio
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Sem anúncios
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Acesso offline
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Acesso a todas as músicas
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Criação ilimitada de playlists
+                    </p>
+                </div>
+                <button class="btn price__btn">Assinar</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer class="section__container footer__container">
+        
+            <p>
+                MusicMastery © 2024 Todos os direitos reservados.
+            </p>
+        </div>
+        <div class="footer__links">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Álbuns</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Playlists</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                <li><a href="#"><i class="ri-youtube-line"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
